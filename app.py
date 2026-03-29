@@ -22,17 +22,17 @@ FIREBASE_URL = (
 
 # ── Thresholds ────────────────────────────────────────────────────────────────
 THRESHOLDS = {
-    "ph":          {"min": 6.5,  "max": 8.5,  "unit": "",     "label": "pH Level",      "icon": "⚗️"},
-    "tds":         {"min": 0,    "max": 500,   "unit": "ppm",  "label": "TDS",           "icon": "🧂"},
+    "ph":          {"min": 6.2,  "max": 8.5,  "unit": "",     "label": "pH Level",      "icon": "⚗️"},
+    "tds":         {"min": 0,    "max": 150,   "unit": "ppm",  "label": "TDS",           "icon": "🧂"},
     "temperature": {"min": 10,   "max": 30,    "unit": "°C",   "label": "Temperature",   "icon": "🌡️"},
-    "turbidity":   {"min": 0,    "max": 4,     "unit": "NTU",  "label": "Turbidity",     "icon": "🌊"},
+    "turbidity":   {"min": 0,    "max": 5,     "unit": "NTU",  "label": "Turbidity",     "icon": "🌊"},
 }
 
 GAUGE_RANGES = {
     "ph":          (0, 14),
-    "tds":         (0, 1500),
+    "tds":         (0, 500),
     "temperature": (0, 50),
-    "turbidity":   (0, 1500),
+    "turbidity":   (0, 500),
 }
 
 # ── Custom CSS ────────────────────────────────────────────────────────────────
